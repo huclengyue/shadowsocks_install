@@ -4,7 +4,7 @@ export PATH
 #=================================================================#
 #   System Required:  CentOS, Debian, Ubuntu                      #
 #   Description: One click Install Shadowsocks-go server          #
-#   Author: Teddysun <i@teddysun.com>                             #
+#   Author: Teddysun <mail@efs.app>                             #
 #==================================================================
 
 clear
