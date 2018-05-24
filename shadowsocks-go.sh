@@ -5,16 +5,12 @@ export PATH
 #   System Required:  CentOS, Debian, Ubuntu                      #
 #   Description: One click Install Shadowsocks-go server          #
 #   Author: Teddysun <i@teddysun.com>                             #
-#   Thanks: @cyfdecyf <https://twitter.com/cyfdecyf>              #
-#   Intro:  https://teddysun.com/392.html                         #
 #==================================================================
 
 clear
 echo
 echo "#############################################################"
 echo "# One click Install Shadowsocks-go server                   #"
-echo "# Intro: https://teddysun.com/392.html                      #"
-echo "# Author: Teddysun <i@teddysun.com>                         #"
 echo "# Github: https://github.com/shadowsocks/shadowsocks-go     #"
 echo "#############################################################"
 echo
@@ -156,8 +152,8 @@ pre_install(){
     fi
     # Set shadowsocks-go config password
     echo "Please enter password for shadowsocks-go:"
-    read -p "(Default password: teddysun.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
+    read -p "(Default password: efs.app):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="efs.app"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
@@ -348,7 +344,7 @@ install(){
     echo -e "Your Password         : \033[41;37m ${shadowsockspwd} \033[0m"
     echo -e "Your Encryption Method: \033[41;37m ${shadowsockscipher} \033[0m"
     echo
-    echo "Welcome to visit:https://teddysun.com/392.html"
+    echo "Welcome to visit:https://www.efs.app/archives/shadowsocks"
     echo "Enjoy it!"
     echo
 }
